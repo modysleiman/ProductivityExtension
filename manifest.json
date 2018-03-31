@@ -16,7 +16,7 @@
 
   "browser_action": {
     "default_icon" : "assets/images/icon128.png",
-    "default_popup" : "assets/html/timer.html",
+    "default_popup" : "popup.html",
     "default_title" : "Procrastination Prevention"
   }
 }
