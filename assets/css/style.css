@@ -18,3 +18,18 @@
 	background-color: red;
 	color:black;
 }
+
+h1{
+	color: pink;
+	font-family: 'Josefin Sans', serif;
+	font-size: 26px;
+	/*text-shadow: 4px 4px 4px #aaa;*/
+	text-align: center;
+}
+
+p{
+	color: grey;
+	font-family: 'Josefin Sans', serif;
+	font-size: 16px;
+	text-align: center;
+}
