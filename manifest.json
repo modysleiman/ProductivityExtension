@@ -1,14 +1,15 @@
 {
-  "manifest_version": 1,
-  "name": "Time Productivity",
-  "version": "0.1"
-
-  "content_scripts": [
-  {
-    "matches": [
-      "www.facebook.com"
-    ],
-    "js": ["content.js"]
-  }
-]
+  "manifest_version": 2,
+ 
+  "name": "ProductivityTimer",
+  "version": "0.1.0",
+  "description": "Lateral blog post demo extension",
+  "icons": { "16": "assets/images/icon16.png",
+           "48": "assets/images/icon48.png",
+          "128": "assets/images/icon128.png" },
+ 
+  "content_scripts": [{
+    "js": ["assets/js/popup.js"],
+    "matches": ["https://www.facebook.com/*"]
+  }]
 }
