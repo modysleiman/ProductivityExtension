@@ -1,0 +1,20 @@
+.CountdownTimer
+{
+	font-size: 300px;
+	z-index: 999;
+	position: fixed;
+	position: top;
+
+	right:0px;
+	width:47px;
+	height:198px;
+	margin:0;
+	padding:0;
+	border:none;
+
+	min-width: 200px;
+	min-height: 200px;
+	float: right;
+	background-color: red;
+	color:black;
+}

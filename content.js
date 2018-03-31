@@ -1,1 +1,3 @@
-alert("Hello from your Chrome extension!")
+var timerDiv = document.createElement('div');
+
+timerDiv.src = chrome.runtime.getURL("assets/timer.innerHTML");
