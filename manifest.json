@@ -2,4 +2,13 @@
   "manifest_version": 1,
   "name": "Time Productivity",
   "version": "0.1"
+
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["content.js"]
+  }
+]
 }
