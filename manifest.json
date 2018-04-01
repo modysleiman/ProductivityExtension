@@ -4,19 +4,17 @@
   "name": "ProductivityTimer",
   "version": "0.1.0",
   "description": "Productivity Prevention Extension",
-  "icons": { "16": "assets/images/icon16.png",
-           "48": "assets/images/icon48.png",
-          "128": "assets/images/icon128.png" },
+
 
   "content_scripts": [{
-    "js": ["assets/js/script.js"],
-    "css": ["assets/css/style.css"],
-    "matches": ["https://www.facebook.com/*", "https://www.youtube.com/*", "https://www.instagram.com/*"]
+    
+    "css": ["popup.css"],
+    "matches": ["https://www.facebook.com/*"]
   }],
 
   "browser_action": {
-    "default_icon" : "assets/images/icon128.png",
-    "default_popup" : "assets/html/timer.html",
+    "default_icon" : "logo.png",
+    "default_popup" : "popup.html",
     "default_title" : "Procrastination Prevention"
   }
 }
