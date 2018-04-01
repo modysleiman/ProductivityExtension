@@ -12,7 +12,7 @@
 
 	"content_scripts": [ {
 		"run_at": "document_end",
-		"matches": ["https://twitter.com/*"],
+		"matches": ["https://twitter.com/*", "https://facebook.com/*"],
 		"js": ["jquery-1.11.3.js", "popup.js"],
 		"css":["mycss.css"]
 	}],

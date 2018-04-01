@@ -15,6 +15,7 @@
 	display:none;
 	height: 100%;
 	width: 100%;
+	cursor:pointer;
 	}
 
 	div#mgt_popup{
@@ -31,15 +32,16 @@
 	border: 5px solid #FFBC00;
 	}
 
-	.popup_close{
-	height: 48px;
-	width: 48px;
+	/*.popup_close{
+	height: 0px;
+	width: 0px;
 	position: absolute;
-	top: -9px;
-	left: 461px;
-	opacity: 0.5;
+	top: 0px;
+	left: 480px;
+	opacity: 100;
 	cursor:pointer;
-	}
+	}*/
+
 
 	input[type=button]{
 	margin: 27px 0px 0px -52px;
