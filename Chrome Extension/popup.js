@@ -1,5 +1,4 @@
-	
-	$(document).ready(function() {   // load the function after DOM ready.
+$(document).ready(function() {   // load the function after DOM ready.
 
 
 	var link1=chrome.extension.getURL("img/logo.png");     //get absolute path of the file residing your extension.

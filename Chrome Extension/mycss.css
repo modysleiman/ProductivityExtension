@@ -20,7 +20,7 @@
 
 	div#mgt_popup{
 	background: #FFF;
-	height:330px;
+	height:500px;
 	width:500px;
 	z-index:550;
 	display:none;
@@ -44,14 +44,14 @@
 
 
 	input[type=button]{
-	margin: 27px 0px 0px -52px;
+	margin: 27px 0px 0px -40px;
 	color: #fff;
 	background-color: #FFBC00;
 	border-color: #FFBC00;
 	padding: 12px 130px;
 	border:1px solid white;
 	font-family:Josefin Sans !important;
-	font-Weight:bold;
+	font-weight:bold;
 	font-size:18px;
 	color:white;
 	}
