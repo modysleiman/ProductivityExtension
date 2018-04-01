@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "Chrome Extension",
+	"description": "add description here",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "img/logo.png",
+		"default_popup": "popup.html"
+	},
+
+	"content_scripts": [ {
+		"run_at": "document_end",
+		"matches": ["https://twitter.com/*"],
+		"js": ["jquery-1.11.3.js", "popup.js"],
+		"css":["mycss.css"]
+	}],
+
+	"web_accessible_resources": [
+		"img/*.png"]
+
+}
